@@ -1,0 +1,139 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+*,
+*::before,
+*::after {
+    /* alles reseten*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+html {
+    /* de html Font size op 10 pixels zetten. 1rem => 10px */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 8rem;
+    width: 100%;
+    background-color: #ee1515;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--button--div {}
+
+.header--opdracht1__button,
+.header--opdracht2__button {
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: 10;
+    background-color: #222224;
+    color: #f0f0f0;
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+}
+
+.active {
+    background-color: #f0f0f0;
+    color: #222224;
+}
+
+.header--title {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: 30;
+    letter-spacing: .3rem;
+    color: white;
+}
+
+main {
+    min-height: 100%;
+    max-width: 100%;
+    background-color: #222224;
+
+}
+
+.pokemoninfo--section {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon--div {
+    height: 60rem;
+    width: 30rem;
+    background-color: #f0f0f0;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: .3rem;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.pokemon--img {
+    min-height: 40%;
+    min-width: 40%;
+}
+
+
+li {
+    padding-bottom: 1rem;
+}
+
+.top--button--div {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 5rem;
+}
+
+.page--top__button {
+    height: 5rem;
+    width: 5rem;
+    background-color: #222224;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    font-family: sans-serif;
+    bottom: 8rem;
+    right: 8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 8rem;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    font-size: 2rem;
+    color: #222224;
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: .3rem;
+}
