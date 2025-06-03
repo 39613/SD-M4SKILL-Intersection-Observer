@@ -61,7 +61,6 @@ main {
     min-height: 100%;
     max-width: 100%;
     background-color: #222224;
-
 }
 
 .pokemoninfo--section {
@@ -136,4 +135,22 @@ footer>p {
     color: #222224;
     font-family: 'Pokemon Solid', sans-serif;
     letter-spacing: .3rem;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.a-popup {
+    opacity: 1;
+    animation-name: popup;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
 }
