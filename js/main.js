@@ -34,6 +34,7 @@ function pokemonInfoLoaden() {
     }, 500);
   }
 }
+
 const observer = new IntersectionObserver(
   function (entries) {
     if (entries[0].isIntersecting == true) {
